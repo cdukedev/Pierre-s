@@ -11,6 +11,9 @@ div {
   width: 92vw;
   padding: 0 4vw;
 }
+img {
+  width: 100%;
+}
 
 @-webkit-keyframes flashing {
   0% {
