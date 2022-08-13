@@ -1,3 +1,52 @@
-body{
-    background-color: #F8CBD1;
+body {
+  background-color: #F8CBD1;
+  width: 100vw;
 }
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 92vw;
+  padding: 0 4vw;
+}
+
+@-webkit-keyframes flashing {
+  0% {
+    background-color: #393939;
+  }
+  50% {
+    background-color: #5bacc3;
+  }
+  100% {
+    background-color: #393939;
+  }
+}
+@keyframes flashing {
+  0% {
+    background-color:#B158D8;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color:#B158D8;
+  }
+}
+
+button {
+  border: none;
+  border-radius: 25px;
+  margin-top: 7vw;
+  color: #2F4F4F;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 3.5vw 6.5vh;
+  -webkit-animation: flashing 2.5s linear infinite;
+  animation: flashing 2.5s linear infinite;
+  margin: 0;
+  color: #ffffff;
+}/*# sourceMappingURL=index.css.map */

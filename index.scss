@@ -1,0 +1,61 @@
+body{
+    background-color: #F8CBD1;
+    width: 100vw;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 92vw;
+    padding: 0 4vw;
+}
+@-webkit-keyframes flashing {
+    0% {
+      background-color: #393939;
+    }
+    50% {
+      background-color: #5bacc3;
+    }
+    100% {
+      background-color: #393939;
+    }
+  }
+  @keyframes flashing {
+    0% {
+      background-color: #393939;
+    }
+    50% {
+      background-color: #5bacc3;
+    }
+    100% {
+      background-color: #393939;
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+button{
+    background: linear-gradient(180deg, #D2C3D8 0%, #B158D8 100%);
+    border: none;
+    border-radius: 5px;
+    color: #2F4F4F;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    font-weight: 400;
+    font-size: 1.75rem;
+    text-align: center;
+    white-space: nowrap;
+    padding: 3.5vw 6.5vh;
+    -webkit-animation: flashing 2.5s linear infinite;
+    animation: flashing 2.5s linear infinite;
+    margin: 0;
+    color: #ffffff;
+}
